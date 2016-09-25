@@ -28,3 +28,8 @@ span.good
 {
 	color: red;
 }
+
+p
+{
+	margin: 5px 0 0;
+}
