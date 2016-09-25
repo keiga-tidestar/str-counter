@@ -2,3 +2,8 @@ body
 {
 	text-align: center;
 }
+
+#text
+{
+	outline: none;
+}
