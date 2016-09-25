@@ -2,6 +2,9 @@
 
 	"use strict";
 
+	var COUNT_MAX = 200;
+	var COUNT_MIN = 180;
+
 	var textItem = document.getElementById("text");
 	var numItem = document.getElementById("num");
 
@@ -17,6 +20,12 @@
 
 	function setNum(num) {
 		numItem.innerHTML = num;
+
+		if (COUNT_MIN <= num && num <= COUNT_MAX) {
+			numItem.className = "good";
+		} else {
+			numItem.className = "";
+		}
 	}
 
 })();
