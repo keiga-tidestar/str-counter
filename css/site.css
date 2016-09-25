@@ -1,0 +1,19 @@
+*
+{
+	font-family: Meiryo;
+}
+
+body
+{
+	text-align: center;
+}
+
+#text
+{
+	width: 400px;
+	height: 200px;
+	border-radius: 2px;
+	font-size: 14px;
+	resize: none;
+	outline: none;
+}
