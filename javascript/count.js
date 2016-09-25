@@ -1,1 +1,7 @@
-alert("hogehoge");
+(function() {
+
+	"use strict";
+
+	console.log("hogehoge");
+
+})();
