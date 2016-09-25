@@ -5,6 +5,11 @@
 	var textItem = document.body.getElementsByTagName("text");
 	var numItem = document.body.getElementsByTagName("num");
 
-	num.innerText = "0";
+	countText();
+
+	function countText() {
+		var num = textItem.length;
+		numItem.innerText = num;
+	}
 
 })();
