@@ -1,3 +1,8 @@
+*
+{
+	font-family: Meiryo;
+}
+
 body
 {
 	text-align: center;
@@ -8,6 +13,7 @@ body
 	width: 400px;
 	height: 250px;
 	border-radius: 2px;
+	font-size: 14px;
 	resize: none;
 	outline: none;
 }
