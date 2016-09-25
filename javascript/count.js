@@ -20,12 +20,7 @@
 
 	function setNum(num) {
 		numItem.innerHTML = num;
-
-		if (COUNT_MIN <= num && num <= COUNT_MAX) {
-			numItem.className = "good";
-		} else {
-			numItem.className = "";
-		}
+		numItem.className = (COUNT_MIN <= num && num <= COUNT_MAX) ? "good" : "";
 	}
 
 })();
