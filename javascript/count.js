@@ -12,6 +12,10 @@
 
 	function countText() {
 		var num = textItem.value.length;
+		setNum(num);
+	}
+
+	function setNum(num) {
 		numItem.innerHTML = num;
 	}
 
