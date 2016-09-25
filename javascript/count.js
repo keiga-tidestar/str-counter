@@ -7,6 +7,9 @@
 
 	countText();
 
+	textItem.addEventListener("keydown", countText);
+	textItem.addEventListener("keyup", countText);
+
 	function countText() {
 		var num = textItem.value.length;
 		numItem.innerHTML = num;
