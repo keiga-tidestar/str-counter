@@ -17,3 +17,8 @@ body
 	resize: none;
 	outline: none;
 }
+
+.good
+{
+	color: red;
+}
