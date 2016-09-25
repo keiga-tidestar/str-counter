@@ -19,7 +19,7 @@ body
 	outline: none;
 }
 
-.good
+span.good
 {
 	color: red;
 }
