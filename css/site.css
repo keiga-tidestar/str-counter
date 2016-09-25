@@ -19,6 +19,11 @@ body
 	outline: none;
 }
 
+#num
+{
+	margin: 5px;
+}
+
 textarea.good
 {
 	background: skyblue;
