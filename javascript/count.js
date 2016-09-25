@@ -21,6 +21,7 @@
 	function setNum(num) {
 		numItem.innerHTML = num;
 		numItem.className = (COUNT_MIN <= num && num <= COUNT_MAX) ? "good" : "";
+		textItem.className = (COUNT_MIN <= num && num <= COUNT_MAX) ? "good" : "";
 	}
 
 })();
