@@ -5,5 +5,7 @@ body
 
 #text
 {
+	width: 400px;
+	height: 250px;
 	outline: none;
 }
