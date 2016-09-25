@@ -2,14 +2,14 @@
 
 	"use strict";
 
-	var textItem = document.body.getElementsByTagName("text");
-	var numItem = document.body.getElementsByTagName("num");
+	var textItem = document.getElementById("text");
+	var numItem = document.getElementById("num");
 
 	countText();
 
 	function countText() {
-		var num = textItem.length;
-		numItem.innerText = num;
+		var num = textItem.value.length;
+		numItem.innerHTML = num;
 	}
 
 })();
