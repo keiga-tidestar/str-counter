@@ -1,0 +1,40 @@
+*
+{
+	font-family: Meiryo;
+}
+
+body
+{
+	text-align: center;
+	margin-top: 30px;
+}
+
+#text
+{
+	width: 400px;
+	height: 200px;
+	border-radius: 2px;
+	font-size: 14px;
+	resize: none;
+	outline: none;
+}
+
+#num
+{
+	margin: 5px;
+}
+
+textarea.good
+{
+	background: skyblue;
+}
+
+span.good
+{
+	color: red;
+}
+
+p
+{
+	margin: 5px 0 0;
+}
