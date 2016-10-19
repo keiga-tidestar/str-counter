@@ -20,13 +20,12 @@
 
 	function setNum(num) {
 		numItem.innerHTML = num;
-		numItem.className = setClass(num);
-		textItem.className = setClass(num);
+		numItem.className = checkNum(num) ? "good" : "";
+		textItem.className = checkNum(num) ? "good" : "";
 	}
 
-	function setClass(num) {
-		var ret = (COUNT_MIN <= num && num <= COUNT_MAX) ? "good" : "";
-		return ret;
+	function checkNum(num) {
+		return COUNT_MIN <= num && num <= COUNT_MAX;
 	}
 
 })();
