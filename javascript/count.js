@@ -2,8 +2,8 @@
 
 	"use strict";
 
-	var COUNT_MAX = 200;
-	var COUNT_MIN = 180;
+	var COUNT_MAX = 145;
+	var COUNT_MIN = 125;
 
 	var textItem = document.getElementById("text");
 	var numItem = document.getElementById("num");
